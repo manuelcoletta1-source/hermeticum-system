@@ -4,6 +4,6 @@
   "policy": ["HASH_ONLY", "FAIL_CLOSED"],
   "payload": {
     "path": "prototype/ipr-precheck/sample/action.json",
-    "sha256": "PUT_SHA256_HERE"
+    "sha256": "80b71f8533ec11ed782071442b8aa20736a25aaca49dd0b9dbc9e265e4fbb030""
   }
 }
