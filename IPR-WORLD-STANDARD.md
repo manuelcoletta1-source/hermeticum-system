@@ -1,93 +1,92 @@
-# IPR World Standard — Execution with Verified Identity
+# IPR Open Standard v0.1
+## Identity-First Execution Protocol
 
-## 1. Definizione
-
-IPR (Identity Primary Record) è un record di identità verificabile
-che precede e autorizza l’esecuzione di un’azione digitale.
-
-Un sistema conforme IPR richiede identità valida prima dell’azione.
+Bozza pubblica aperta.  
+Standard replicabile senza autorizzazione.
 
 ---
 
-## 2. Principio fondamentale
+# 1. Scopo
 
-Nessuna esecuzione senza identità verificata.
+Definire un modello di esecuzione digitale in cui ogni azione
+richiede identità verificabile prima dell’esecuzione.
 
-Un’azione è eseguibile solo se:
-- preceduta da IPR valido
-- verificabile
-- coerente con le policy del sistema
-
-In assenza di IPR valido → blocco.
+Il modello è indipendente da piattaforme,
+autorità centrali o tecnologie specifiche.
 
 ---
 
-## 3. Sequenza operativa
+# 2. Principio
 
-Flusso standard:
+Un sistema conforme richiede:
+
+identità valida → prima dell’azione
+
+Se identità non valida → blocco.
+
+---
+
+# 3. Flusso standard
 
 Identità  
-↓  
 Verifica  
-↓  
 Autorizzazione  
-↓  
 Esecuzione  
-↓  
-Traccia nel tempo
+Traccia
 
-Se uno dei passaggi fallisce → azione non eseguibile.
-
----
-
-## 4. Requisiti di validità IPR
-
-Un IPR valido deve essere:
-
-Identificabile  
-Verificabile  
-Non duplicabile  
-Tracciabile nel tempo  
-Revocabile o decadibile  
+Tutti i passaggi devono essere verificabili.
 
 ---
 
-## 5. Sistema IPR-compatible
+# 4. Requisiti identità (IPR)
+
+Un Identity Primary Record deve essere:
+
+- univoco  
+- verificabile  
+- tracciabile  
+- non duplicabile  
+- revocabile o decadibile  
+
+---
+
+# 5. Sistema compatibile
 
 Un sistema è IPR-compatible se:
 
-- richiede IPR prima dell’esecuzione  
-- verifica integrità e validità  
+- richiede identità valida ex-ante  
+- verifica integrità  
+- blocca azioni non autorizzate  
 - registra la traccia  
-- blocca azioni non valide  
 
 ---
 
-## 6. Ambiti di applicazione
+# 6. Indipendenza
 
-AI operative  
-Robotica  
-Infrastrutture critiche  
-Finanza digitale  
-Pubblica amministrazione  
-Reti autonome  
+Lo standard può essere implementato in:
 
-Ogni ambiente dove serve
-esecuzione verificabile prima dell’azione.
+software  
+AI  
+robotica  
+reti  
+infrastrutture  
+governance digitale  
 
----
-
-## 7. Obiettivo
-
-Ridurre la dipendenza dalla fiducia.  
-Aumentare verificabilità e responsabilità.  
-Consentire sistemi autonomi controllabili.
+Non dipende da una tecnologia specifica.
 
 ---
 
-## 8. Stato
+# 7. Obiettivo
 
-Draft iniziale pubblico.  
-Standard aperto.  
-Replicabile.  
-Osservabile nel tempo.
+Ridurre dipendenza dalla fiducia.  
+Aumentare verificabilità.  
+Consentire esecuzione responsabile.
+
+---
+
+# 8. Stato
+
+Open draft v0.1  
+Replicabile  
+Modificabile  
+Osservabile nel tempo
