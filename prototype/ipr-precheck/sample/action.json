@@ -1,0 +1,7 @@
+{
+  "action": "TRANSFER_VALUE",
+  "to": "example:recipient",
+  "amount": "10",
+  "unit": "EUR",
+  "nonce": "0001"
+}
