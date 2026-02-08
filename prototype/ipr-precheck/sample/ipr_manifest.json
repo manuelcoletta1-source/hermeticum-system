@@ -1,0 +1,9 @@
+{
+  "proto": "IPR-PRECHECK-MANIFEST-v1",
+  "kind": "ACTION_PRECHECK",
+  "policy": ["HASH_ONLY", "FAIL_CLOSED"],
+  "payload": {
+    "path": "prototype/ipr-precheck/sample/action.json",
+    "sha256": "PUT_SHA256_HERE"
+  }
+}
